@@ -14,7 +14,7 @@ src: url('../fonts/rigatoni/RigatoniW00ExtraBold.eot?#iefix') format('embedded-o
 :root {
   --blanco: #fffefc;
   --negro: #000000;
-  --amarillo: #ffd633;
+  --amarillo: #00b071;
   --amarilloClaro: #f6f4ed;
   --rojopastel: #ffa099
 }
@@ -40,7 +40,22 @@ h3{
 }
 
 li p:first-child {
+  font-family: 'Quicksand', sans-serif;
   color: var(--amarillo);
+  font-size: large;
+  font-weight: bold;
+  margin-bottom: -0.5em;
+}
+tr {
+  font-family: 'Quicksand', sans-serif;
+  color: #d7ff86;
+  font-size: large;
+  font-weight: bold;
+  margin-bottom: -0.5em;
+}
+table tr:first-child  {
+  font-family: 'Quicksand', sans-serif;
+  color: #33f21b;
   font-size: large;
   font-weight: bold;
   margin-bottom: -0.5em;
