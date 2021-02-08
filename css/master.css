@@ -53,16 +53,30 @@ p {
 
 table {
 
-  border-radius: 15px 15px 5px 5px;
-  padding: 15px;
-  border-color: var(--negro);
+  border-radius: 15px 15px 1px 1px;
+  text-align: center;
+  margin: 0 auto;
+  width: 50%;
+  height: 30px;
+  padding: 12px;
+  border-color: var(--blanco);
   border-style: solid;
-  border-width: 3px;
-  box-shadow: 0 0 0 2px #fff, 0 0 15px 5px var(--rojopastel), inset 0 0 0 2px #fff, inset 0 0 0 15px #fff
+  border-width: 2px;
+  box-shadow: 0 0 0 1px #fff, 0 0 80px 2px var(--rojopastel), inset 0 0 0 1px #fff, inset 0 0 0 4px #fff
 
 }
 table p{
   color: var(--blanco);
+
+}
+h2{
+  width:190px;
+  margin: 0 auto;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2em;
+  box-shadow: 0 0 0 1px #fff, 0 0 2px 2px var(--rojopastel), inset 0 0 0 1px #fff, inset 0 0 0 4px #fff
+
+
 
 }
 
