@@ -18,9 +18,9 @@ src: url('../fonts/rigatoni/RigatoniW00ExtraBold.eot?#iefix') format('embedded-o
   --amarilloClaro: #f6f4ed;
   --rojopastel: #ffa099;
   --bg: #1e2345;
-  --e1: rgb(163,132,240);
+  --e1: rgb(222, 117, 75);
   --e2: #d60087;
-  --e3: #2fdabd;
+  --e3: #32a852;
 }
 
 /* Selector por id */
@@ -42,7 +42,6 @@ h1{
   -webkit-text-fill-color: transparent;
 }
 .nameBox{
-  background-color: var(--bg);
   padding: 6rem;
   display: grid;
   place-items: center;
