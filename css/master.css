@@ -14,9 +14,13 @@ src: url('../fonts/rigatoni/RigatoniW00ExtraBold.eot?#iefix') format('embedded-o
 :root {
   --blanco: #fffefc;
   --negro: #000000;
-  --amarillo: #00b071;
+  --azul: #00b071;
   --amarilloClaro: #f6f4ed;
-  --rojopastel: #ffa099
+  --rojopastel: #ffa099;
+  --bg: #1e2345;
+  --e1: rgb(163,132,240);
+  --e2: #d60087;
+  --e3: #2fdabd;
 }
 
 /* Selector por id */
@@ -25,6 +29,32 @@ src: url('../fonts/rigatoni/RigatoniW00ExtraBold.eot?#iefix') format('embedded-o
 }
 
 /* Selector */
+h1{
+  margin: 0;
+  font-size: 8rem;
+  text-transform: uppercase;
+}
+
+.name{
+    font-family: 'Fredoka One', cursive;
+  background-image: linear-gradient(45deg, var(--e1), var(--e3));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.nameBox{
+  background-color: var(--bg);
+  padding: 6rem;
+  display: grid;
+  place-items: center;
+
+}
+box{
+  background: linear-gradient(100deg, var(--e1)25%, var(--e3)50%, var(--e1)75%);
+  background-repeat: repeat;
+  padding: 2rem;
+  margin: 5rem;
+}
+
 h2 {
   color: var(--blanco);
   font-size: xx-large;
@@ -32,8 +62,8 @@ h2 {
   text-align: center;
 }
 h3{
-  color: var(--rojopastel)
-  font-size: xx-large;
+
+
   font-family: Bellota, cursive;
   text-align: center;
   box-shadow: 0 0 0 2px #fff, 0 0 15px 5px var(--rojopastel), inset 0 0 0 2px #fff, inset 0 0 0 15px #fff
@@ -41,7 +71,7 @@ h3{
 
 li p:first-child {
   font-family: 'Quicksand', sans-serif;
-  color: var(--amarillo);
+  color: var(--azul);
   font-size: large;
   font-weight: bold;
   margin-bottom: -0.5em;
@@ -91,12 +121,12 @@ h2{
   font-size: 2em;
   box-shadow: 0 0 0 1px #fff, 0 0 2px 2px var(--rojopastel), inset 0 0 0 1px #fff, inset 0 0 0 4px #fff
 
-
-
 }
 
 /* Selector */
 body {
+
+
   background: rgb(2,0,36);
   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(85,6,30,1) 25%, rgba(91,6,30,1) 45%, rgba(89,27,44,1) 69%, rgba(44,53,67,1) 86%, rgba(44,53,67,1) 95%, rgba(10,72,84,1) 100%);
 
